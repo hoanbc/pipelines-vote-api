@@ -1,4 +1,4 @@
-FROM golang:latest as builder
+FROM docker.io/golang:latest as builder
 
 WORKDIR /build
 ADD . /build/
